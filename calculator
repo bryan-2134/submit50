@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main() {
+	float m;
+	float n;
+	float r;
+	float s;
+	printf("Enter number of animals: \n");
+	scanf("%f",&n);
+	m = n/3;
+	s = n/4;
+	r = n+m-s;
+	printf("The current number of animals is: %f\n",r);
+	return 0;
+}
